@@ -1,4 +1,8 @@
 # Add  code here!
 def prime? (integer)
-  integer.include? 
+  if integer > 5
+    puts "yes"
+  else
+    puts "no"
+  end
 end
